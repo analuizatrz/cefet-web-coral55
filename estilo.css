@@ -1,2 +1,32 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+#recipiente {
+	background-image: linear-gradient(#fef1b2, #4599b2);
+	width: 800px;
+	margin-left: auto;
+    margin-right: auto;
+	border-left: 1px solid #d3d3d3;
+	border-right: 1px solid #d3d3d3;
+}
+
+h1 {
+	font-size: 36px;
+	font-family: ravie;
+	color: #e90c0c;
+	text-align: right;
+}
+
+header > h2 {
+	font-size: 24px;
+	font-family: Trubuchet MS;
+	color: #333;
+	text-align: right;
+}
+header strong {
+	color: #d027aa;
+}
+
+
+
+
