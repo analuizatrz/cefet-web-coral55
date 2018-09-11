@@ -8,6 +8,7 @@
     margin-right: auto;
 	border-left: 1px solid #d3d3d3;
 	border-right: 1px solid #d3d3d3;
+	position: relative;
 }
 
 h1 {
@@ -23,9 +24,24 @@ header > h2 {
 	color: #333;
 	text-align: right;
 }
+
 header strong {
 	color: #d027aa;
 }
+
+#lateral {
+	/*position:absolute;*/
+
+	float: left;
+	height: 100%;
+	width: 154px;
+}
+
+#lateral h1{
+	text-orientation: 90;
+}
+
+
 
 
 
